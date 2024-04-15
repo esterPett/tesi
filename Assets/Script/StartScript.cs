@@ -12,8 +12,9 @@ public class StartScript : MonoBehaviour
 
     private IEnumerator avvio()
     {
+
         yield return Fader.Instance.ToBlack();
 
-        yield return SceneManager.LoadSceneAsync(0);
+        yield return SceneManager.LoadSceneAsync(1);
     }
 }

@@ -16,7 +16,7 @@ public class PlayScript : MonoBehaviour
     {   
         yield return Fader.Instance.ToBlack();
 
-        yield return SceneManager.LoadSceneAsync(1);
+        yield return SceneManager.LoadSceneAsync(2);
     }
 
     
