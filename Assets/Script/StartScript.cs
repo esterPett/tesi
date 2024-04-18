@@ -5,16 +5,14 @@ using UnityEngine.SceneManagement;
 public class StartScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    private IEnumerator Start()
     {
-        StartCoroutine(avvio());
-    }
-
-    private IEnumerator avvio()
-    {
-
+        yield return new WaitForSeconds(2);
+        
         yield return Fader.Instance.ToBlack();
 
         yield return SceneManager.LoadSceneAsync(1);
     }
+
+  
 }
