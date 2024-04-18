@@ -12,8 +12,11 @@ public class QuitScript : MonoBehaviour
     {
        
         yield return Fader.Instance.ToTrasparent();
+
+        yield return new WaitForSeconds(2);
         
         Application.Quit();
+
         #if UNITY_EDITOR
         EditorApplication.isPlaying=false;
         #endif
