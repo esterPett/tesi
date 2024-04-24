@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class StartScript : MonoBehaviour
 {
-    // Start is called before the first frame update
     private IEnumerator Start()
     {
         yield return new WaitForSeconds(2);
