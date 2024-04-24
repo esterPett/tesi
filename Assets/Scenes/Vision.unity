@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 368169112}
   - component: {fileID: 368169116}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Schermata
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1083,7 +1083,7 @@ PrefabInstance:
     - target: {fileID: 914896113133652945, guid: 4947b725b8d48c3419fb717f3ccf2bec,
         type: 3}
       propertyPath: m_Name
-      value: Button
+      value: Back
       objectReference: {fileID: 0}
     - target: {fileID: 6118666155615283116, guid: 4947b725b8d48c3419fb717f3ccf2bec,
         type: 3}
@@ -1322,7 +1322,7 @@ GameObject:
   - component: {fileID: 1541968122}
   - component: {fileID: 1541968121}
   m_Layer: 5
-  m_Name: Button
+  m_Name: 'Quit '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

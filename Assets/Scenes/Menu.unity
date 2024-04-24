@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 303177493}
   - component: {fileID: 303177494}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,7 +372,7 @@ PrefabInstance:
     - target: {fileID: 914896113133652945, guid: 4947b725b8d48c3419fb717f3ccf2bec,
         type: 3}
       propertyPath: m_Name
-      value: Button (1)
+      value: Exit
       objectReference: {fileID: 0}
     - target: {fileID: 6118666155615283116, guid: 4947b725b8d48c3419fb717f3ccf2bec,
         type: 3}
@@ -1059,7 +1059,7 @@ PrefabInstance:
     - target: {fileID: 914896113133652945, guid: 4947b725b8d48c3419fb717f3ccf2bec,
         type: 3}
       propertyPath: m_Name
-      value: Button
+      value: Start
       objectReference: {fileID: 0}
     - target: {fileID: 7369361233639040583, guid: 4947b725b8d48c3419fb717f3ccf2bec,
         type: 3}
