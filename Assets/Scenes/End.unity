@@ -556,6 +556,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3471719688248308419, guid: 777680309d59b0548a5383e733a7a9b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Nome
+      objectReference: {fileID: 0}
     - target: {fileID: 6538307882453707869, guid: 777680309d59b0548a5383e733a7a9b0,
         type: 3}
       propertyPath: m_Name
@@ -679,7 +684,7 @@ GameObject:
   - component: {fileID: 1953553289}
   - component: {fileID: 1953553288}
   m_Layer: 5
-  m_Name: Back
+  m_Name: BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

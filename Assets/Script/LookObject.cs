@@ -6,12 +6,7 @@ public class LookObject : MonoBehaviour
 {
     [SerializeField] private Transform camera;
    
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+   
     void Update()
     {
 

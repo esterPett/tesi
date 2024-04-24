@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class QuitScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+  
   public IEnumerator Start()
     {
        
@@ -20,6 +20,9 @@ public class QuitScript : MonoBehaviour
         #if UNITY_EDITOR
         EditorApplication.isPlaying=false;
         #endif
+
+
+        
     }
 
 }
