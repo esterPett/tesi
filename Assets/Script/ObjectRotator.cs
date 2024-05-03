@@ -22,7 +22,7 @@ public class ObjectRotator : MonoBehaviour
 
         foreach(Transform item in objects)
         {
-            Debug.Log(item.gameObject.name);
+            
             
             item.Rotate(speed*Time.deltaTime*mouseSpeedY,speed*Time.deltaTime*mouseSpeedX,0,Space.Self);
         }
