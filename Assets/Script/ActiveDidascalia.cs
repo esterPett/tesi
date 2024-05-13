@@ -8,8 +8,8 @@ public class ActiveDidascalia : MonoBehaviour
     [SerializeField] private GameObject button; 
     public void Active ()
     {
-        
-        didascalia.SetActive(!didascalia.activeInHierarchy);
+            didascalia.SetActive(!didascalia.activeInHierarchy);
+      
     }
 
     public void ViewButton(bool selezione)
