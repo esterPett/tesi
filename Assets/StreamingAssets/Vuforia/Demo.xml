@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="roveto_ardente" size="2.000000 2.658709" />
+    <ImageTarget name="i_tre_giovani_nella_fornace" size="2.000000 2.242477" />
+    <ImageTarget name="gerusalemme_celeste" size="2.000000 1.522569" />
+    <ImageTarget name="discesa_agli_inferi" size="2.000000 2.242477" />
     <ImageTarget name="cubo1" size="0.500000 0.382500" />
-    <ImageTarget name="cubo" size="0.500000 0.500000" />
     <ImageTarget name="unnamed" size="0.500000 0.500000" />
     <ImageTarget name="qrcode" size="1.000000 0.714286" />
   </Tracking>
