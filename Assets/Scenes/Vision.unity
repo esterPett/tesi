@@ -885,7 +885,7 @@ PrefabInstance:
     - target: {fileID: 5368374150195852556, guid: 2038ef1504c55b641b07039d0642cc42,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6775870503349554378, guid: 2038ef1504c55b641b07039d0642cc42,
         type: 3}
@@ -920,12 +920,12 @@ PrefabInstance:
     - target: {fileID: 7450043904732102098, guid: 2038ef1504c55b641b07039d0642cc42,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.509
+      value: -0.052
       objectReference: {fileID: 0}
     - target: {fileID: 7450043904732102098, guid: 2038ef1504c55b641b07039d0642cc42,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.45
+      value: 0.958
       objectReference: {fileID: 0}
     - target: {fileID: 7450043904732102098, guid: 2038ef1504c55b641b07039d0642cc42,
         type: 3}
@@ -1231,12 +1231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e9ea1110a90745bf4c54b53ee019b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1008923921 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5368374150195852556, guid: 2038ef1504c55b641b07039d0642cc42,
-    type: 3}
-  m_PrefabInstance: {fileID: 433274903}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1008923923 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7450043904732102098, guid: 2038ef1504c55b641b07039d0642cc42,
@@ -1802,166 +1796,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee37381026a5af4096b24817a23c231, type: 3}
---- !u!1 &1408077648
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1408077651}
-  - component: {fileID: 1408077650}
-  - component: {fileID: 1408077649}
-  - component: {fileID: 1408077652}
-  m_Layer: 0
-  m_Name: Roveto Ardente
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1408077649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408077648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StatusFilter: 1
-  UsePoseSmoothing: 0
-  AnimationCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 3.3333333
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.3
-      value: 1
-      inSlope: 3.3333333
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 368169117}
-        m_TargetAssemblyTypeName: ActiveDidascalia, Assembly-CSharp
-        m_MethodName: ViewButton
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 368169117}
-        m_TargetAssemblyTypeName: ActiveDidascalia, Assembly-CSharp
-        m_MethodName: SetDidascalia
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1008923921}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 368169117}
-        m_TargetAssemblyTypeName: ActiveDidascalia, Assembly-CSharp
-        m_MethodName: ViewButton
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1408077650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408077648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PreviewVisible: 1
-  RuntimeOcclusion: 0
-  RuntimeCollider: 0
-  mTrackableName: roveto_ardente
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Demo.xml
-  mAspectRatio: 1.3293545
-  mImageTargetType: 0
-  mWidth: 2
-  mHeight: 2.658709
-  mRuntimeTexture: {fileID: 0}
-  mMotionHint: 1
-  mTrackingOptimization: 0
-  mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1408077652}
---- !u!4 &1408077651
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408077648}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1408077652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408077648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1408077650}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: roveto_ardente
-  mDatasetName: Vuforia/Demo.xml
-  mCastedBehaviour: {fileID: 1408077650}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1462285417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2703,7 +2537,7 @@ PrefabInstance:
     - target: {fileID: 5368374150195852556, guid: 2038ef1504c55b641b07039d0642cc42,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6775870503349554378, guid: 2038ef1504c55b641b07039d0642cc42,
         type: 3}
@@ -3154,7 +2988,7 @@ PrefabInstance:
     - target: {fileID: 5368374150195852556, guid: 2038ef1504c55b641b07039d0642cc42,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6775870503349554378, guid: 2038ef1504c55b641b07039d0642cc42,
         type: 3}
@@ -3348,7 +3182,6 @@ SceneRoots:
   - {fileID: 705507995}
   - {fileID: 1822799306}
   - {fileID: 1465385210}
-  - {fileID: 1408077651}
   - {fileID: 334658877}
   - {fileID: 23316482}
   - {fileID: 979142040}
