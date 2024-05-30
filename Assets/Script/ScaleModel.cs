@@ -5,8 +5,7 @@ using UnityEngine;
 public class ScaleModel : MonoBehaviour
 {
     [SerializeField] private Transform[] models;
-    private Vector2 touchStartPos;
-    private float lastScale;
+    
 
     void Update()
     {

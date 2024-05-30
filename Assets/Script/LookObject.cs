@@ -11,11 +11,7 @@ public class LookObject : MonoBehaviour
     {
 
         Vector3 LookVector =  new Vector3(0,0,lookZ); 
-        Quaternion position = Quaternion.LookRotation(LookVector);
-
-        //transform.rotation = position;
-
-        transform.LookAt(camera, LookVector);
+         transform.LookAt(camera, LookVector);
 
     }
 }
