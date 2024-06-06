@@ -10,7 +10,7 @@ public class LookObject : MonoBehaviour
     void Update()
     {
 
-        Vector3 LookVector =  new Vector3(0,0,lookZ); 
+        Vector3 LookVector =  new Vector3(0,lookZ,0); 
          transform.LookAt(camera, LookVector);
 
     }
