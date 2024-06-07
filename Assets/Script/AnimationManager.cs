@@ -26,6 +26,8 @@ public class AnimationManager : MonoBehaviour
    
     private IEnumerator waitTransition ()
     {
+        
+
         yield return new WaitForSeconds(transition.length);
 
         activeModel(true);

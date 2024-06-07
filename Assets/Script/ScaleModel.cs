@@ -5,7 +5,7 @@ using UnityEngine;
 public class ScaleModel : MonoBehaviour
 {
     [SerializeField] private Transform[] models;
-    
+    [SerializeField] private bool scale;
 
     void Update()
     {
@@ -54,7 +54,25 @@ public class ScaleModel : MonoBehaviour
         }
     }
 
+    public void scaleModel ()
+    {
+        scale = !scale;
 
+        if(scale)
+        {
+            foreach(Transform item in models)
+            {
+                item.localScale = new Vector3(2, 2, 2);
+            }
+        }
+        else
+        {
+            foreach (Transform item in models)
+            {
+                item.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+            }
+        }
+    }
 
 
 

@@ -10,8 +10,8 @@ public class LookObject : MonoBehaviour
     void Update()
     {
 
-        Vector3 LookVector =  new Vector3(0,lookZ,0); 
-         transform.LookAt(camera, LookVector);
+        Vector3 LookVector =  new Vector3(0,0, lookZ); 
+         transform.LookAt(new Vector3 (0,0,camera.position.z), LookVector);
 
     }
 }
